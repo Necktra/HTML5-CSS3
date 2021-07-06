@@ -1,5 +1,4 @@
 body {
-    /* padding: 0; */
     margin: 0;
 }
 
@@ -170,7 +169,6 @@ body {
     background-color: #EBEBEB;
     padding: 16px 10px 0 15px;
     text-align: justify;
-    /* margin-right: 15px; */
 }
 
 .reviews-block__comment {
@@ -192,7 +190,6 @@ body {
     line-height: 18px;
     color: #989898;
     margin: 0;
-
 }
 
 .reviews-block__img {
@@ -268,9 +265,6 @@ body {
 }
 
 .contacts {
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
     background-color: #445161;
     padding: 25px calc(50% - 1172px / 2) 48px calc(50% - 1172px / 2);
 }
@@ -288,28 +282,23 @@ body {
 
 .wrap-social-link {
     display: flex;
+    justify-content: center;
 }
 
 .contacts__form {
     display: flex;
     flex-direction: column;
-    /* width: 503px;
-    height: 43px;
-
-    font-family: Arial;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-color: #445162; */
+    align-items: center;
 }
 
 .contacts__form .contacts__name,
 .contacts__mail,
 .contacts__message {
+    padding: 10px 10px 6px 10px;
+    margin-bottom: 18px;
+    box-sizing: border-box;
+    border-radius: 4px;
     width: 503px;
-    height: 43px;
-
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -318,16 +307,63 @@ color: #445162; */
     color: #445162;
 }
 
+.contacts__message {
+    height: 173px;
+}
+
+.contacts__button {
+    width: 143px;
+    height: 43px;
+    background-color: #FFFFFF;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #445162;
+    border-radius: 4px;
+}
+
+.wrap-social-networks {
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+}
+
+.wrap-contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__text {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin: 0 0 0 5px;
+}
+
+.wrap-soc-icons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.wrap-soc-networks-icons {
+    margin-top: 34px;
+}
+
 .footer {
     text-align: center;
-
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 24px;
     letter-spacing: 0.3px;
-
     color: #445162;
     background-color: #F5F5F5;
     margin: 0;
