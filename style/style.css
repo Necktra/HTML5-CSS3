@@ -369,3 +369,7 @@ body {
     margin: 0;
     padding: 13px 0;
 }
+
+.contacts__message {
+   resize: none;
+}
