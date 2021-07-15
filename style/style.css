@@ -170,6 +170,20 @@ body {
     padding: 16px 10px 0 15px;
     text-align: justify;
     border-radius: 5px;
+    position: relative;
+}
+
+.wrap-reviews-comment::before{
+    content: "";
+    display: block;
+    width: 0;
+    position: absolute;
+    left: -36px;
+    top: 37px;
+    border-right: 22px solid #EBEBEB;
+    border-left: 22px solid transparent;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
 }
 
 .reviews-block__comment {
