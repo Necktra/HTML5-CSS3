@@ -7,11 +7,13 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #445161;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 0 calc(50% - 1172px / 2);
 }
 
 .product__caption {
-
     font-family: Arial;
     font-style: normal;
     font-weight: normal;
@@ -54,7 +56,6 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-
     color: #333333;
 }
 
@@ -140,7 +141,6 @@ body {
 
 .wrap-screenshots-block {
     margin-left: 14px;
-
 }
 
 .reviews {
@@ -173,7 +173,7 @@ body {
     position: relative;
 }
 
-.wrap-reviews-comment::before{
+.wrap-reviews-comment::before {
     content: "";
     display: block;
     width: 0;
@@ -209,6 +209,17 @@ body {
 
 .reviews-block__img {
     margin-right: 15px;
+    display: block;
+    width: 63px;
+    height: 63px;
+    padding: 31px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background-image: url(../img/avatar/alucard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+
 }
 
 .buy-it {
@@ -282,6 +293,9 @@ body {
 .contacts {
     background-color: #445161;
     padding: 25px calc(50% - 1172px / 2) 48px calc(50% - 1172px / 2);
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .contacts__caption {
@@ -386,5 +400,17 @@ body {
 }
 
 .contacts__message {
-   resize: none;
+    resize: none;
+}
+
+.contacts__twitter-icon,
+.contacts__vk-icon,
+.contacts__google-icon,
+.contacts__fb-icon {
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 9px 6px;
+    color: #445162;
+    margin-left: 3px;
 }
